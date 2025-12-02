@@ -6,23 +6,16 @@ The model is trained on the PlantVillage dataset and deployed using Streamlit fo
 📌 Features
 
 Upload plant leaf images (JPG/PNG)
-
 Real-time disease prediction using a trained TensorFlow model
-
 Displays prediction label with high accuracy
-
 Clean and simple Streamlit UI
-
 Lightweight and easy to run locally
 
 🧠 Model Information
 
 Framework: TensorFlow / Keras
-
 Model Type: Convolutional Neural Network (CNN)
-
 Input Size: 128 × 128 × 3
-
 Trained for: 38 plant diseases + healthy classes
 
 Trained using:
@@ -41,6 +34,7 @@ Plant-Disease-Detection/
 └── .gitignore
 
 🚀 How to Run
+
 1️⃣ Clone the repository
 git clone https://github.com/ROBINBHANDARI01/plant-disease-detection.git
 cd plant-disease-detection
@@ -52,6 +46,7 @@ It’s recommended to use a virtual environment:
 pip install -r requirements.txt
 
 3️⃣ Run the Streamlit app
+
 streamlit run main.py
 
 The app will launch in your browser.
@@ -77,21 +72,15 @@ You can download it from Kaggle or PlantVillage:
 https://www.kaggle.com/datasets/emmarex/plantdisease](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
 🛠️ Technologies Used
-
 Python
-
 TensorFlow / Keras
-
 Streamlit
-
 NumPy
-
 Pillow
 
 📌 Requirements
 
 Example requirements.txt:
-
 tensorflow
 streamlit
 matplotlib 
