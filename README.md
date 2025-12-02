@@ -1,39 +1,61 @@
-🌱 Plant Disease Detection
+**🌱 Plant Disease Detection**
 
 A deep-learning based web application that detects plant leaf diseases using a Convolutional Neural Network (CNN).
 The model is trained on the PlantVillage dataset and deployed using Streamlit for an interactive web interface.
 
-📌 Features
+**📌 Features**
+
 
 Upload plant leaf images (JPG/PNG)
+
 Real-time disease prediction using a trained TensorFlow model
+
 Displays prediction label with high accuracy
+
 Clean and simple Streamlit UI
+
 Lightweight and easy to run locally
 
-🧠 Model Information
+
+
+**🧠 Model Information**
+
 
 Framework: TensorFlow / Keras
+
 Model Type: Convolutional Neural Network (CNN)
+
 Input Size: 128 × 128 × 3
+
 Trained for: 38 plant diseases + healthy classes
 
-Trained using:
+
+
+**Trained using:**
+
 image_dataset_from_directory()
 
-Model file included:
+
+**Model file included:**
+
 SavedModel.h5
 
-📂 Project Structure
+
+**📂 Project Structure**
+
 Plant-Disease-Detection/
 │
+
 ├── main.py              # Streamlit web app
+
 ├── SavedModel.h5        # Trained CNN model
+
 ├── requirements.txt     # Python dependencies
+
 ├── README.md            # Project documentation
 └── .gitignore
 
-🚀 How to Run
+**🚀 How to Run**
 
 1️⃣ Clone the repository
 git clone https://github.com/ROBINBHANDARI01/plant-disease-detection.git
@@ -51,7 +73,7 @@ streamlit run main.py
 
 The app will launch in your browser.
 
-🖼️ How it Works
+**🖼️ How it Works**
 
 You upload a plant leaf image.
 
@@ -61,7 +83,7 @@ Model predicts disease class index.
 
 Class index is mapped to the correct label derived during training.
 
-🗂️ Dataset
+**🗂️ Dataset**
 
 This project uses the PlantVillage dataset.
 
@@ -71,26 +93,32 @@ You can download it from Kaggle or PlantVillage:
 
 https://www.kaggle.com/datasets/emmarex/plantdisease](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
+
 Python
+
 TensorFlow / Keras
+
 Streamlit
+
 NumPy
+
 Pillow
 
-📌 Requirements
+**📌 Requirements**
 
 Example requirements.txt:
+
 tensorflow
+
 streamlit
+
 matplotlib 
+
 pillow
+
 numpy
 
-🤝 Contributing
-
-Pull requests and suggestions are welcome!
-Feel free to fork the repo and open issues.
 
 📄 License
 
