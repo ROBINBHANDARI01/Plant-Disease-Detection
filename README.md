@@ -91,7 +91,7 @@ This project uses the PlantVillage dataset.
 
 You can download it from Kaggle or PlantVillage:
 
-https://www.kaggle.com/datasets/emmarex/plantdisease](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+[[https://www.kaggle.com/datasets/emmarex/plantdisease](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
 **🛠️ Technologies Used**
 
